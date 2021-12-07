@@ -1,5 +1,5 @@
 require('./config.js')
-const { WAConnection: _WAConnection } = require('^3.5.3')
+const { WAConnection: _WAConnection } = require('@adiwajshing/baileys')
 const cloudDBAdapter = require('./lib/cloudDBAdapter')
 const { generate } = require('qrcode-terminal')
 const syntaxerror = require('syntax-error')
